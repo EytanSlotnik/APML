@@ -186,5 +186,10 @@ STAT_CUASE_DECR – the response feature, is seems that most of the data is
  relation to the less popular cuases.
 \end_layout
 
+\begin_layout Enumerate
+Many columns are duplactive in there data, representing a mapping of code
+ and name.
+\end_layout
+
 \end_body
 \end_document

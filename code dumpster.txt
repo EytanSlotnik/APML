@@ -1,0 +1,10 @@
+# import pickle
+# f = open('data.txt','wb')
+# pickle.dump(df,f)
+# df = pickle.load(open('data.txt', 'rb'))
+
+
+
+# from pandas_profiling import ProfileReport
+# profile = ProfileReport(df)
+# profile.to_file("data_report.html")
