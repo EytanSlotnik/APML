@@ -138,8 +138,8 @@ Exploratory Data Analysis
 \end_layout
 
 \begin_layout Enumerate
-SOURCE_SYSTEM_TYPE - mose of the agencies are NON_FED, some FED, and a monority
- of INTERSENCY.
+SOURCE_SYSTEM_TYPE - mose of the agencies are NON_FED, some FED, and a minority
+ of INTERAGENCY.
 \end_layout
 
 \begin_layout Enumerate
@@ -161,7 +161,7 @@ FIRE_YEAR - it seems that there is an uniform amount of data over the years.
 \end_layout
 
 \begin_layout Enumerate
-DISCOVERY_DOY - there is a distinct trend within the time of year.
+DISCOVERY_DAY - there is a distinct trend within the time of year.
 \end_layout
 
 \begin_layout Enumerate
@@ -171,7 +171,7 @@ DISCOVERY_TIME -
 \begin_deeper
 \begin_layout Enumerate
 the distributions is very unstable in small areas, with big jumps, which
- could indicate that the data is aproximated an rounded.
+ could indicate that the data is aproximated and rounded.
 \end_layout
 
 \begin_layout Enumerate
