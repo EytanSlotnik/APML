@@ -116,3 +116,39 @@ def add_rainfall_data(df):
 
 X_train = add_rainfall_data(X_train)
 X_test = add_rainfall_data(X_test)
+
+
+
+year_df_dict = {year: pd.read_csv("StormEvents_details-ftp_v1.0_d"+str(year)+"_c20170717.csv") for year in range(1996, 2015)}
+
+import geopandas as gpd
+from shapely.geometry import Point
+
+# Load the fire dataset
+fires = pd.read_csv("fires.csv")
+# convert the date column to datetime
+fires["date"] = pd.to_datetime(fires["date"])
+
+# Convert the fire dataset into a GeoDataFrame
+fires_gdf = gpd.GeoDataFrame(fires, geometry=gpd.points_from_xy(fires["longitude"], fires["latitude"]))
+
+# Load the storms dataset
+storms = pd.read_csv("storms.csv")
+# convert start_date and end_date columns to datetime
+storms["start_date"] = pd.to_datetime(storms["start_date"])
+storms["end_date"] = pd.to_datetime(storms["end_date"])
+
+# create a new column in the storms dataframe to store the result
+storms["storm"] = False
+
+# Convert the storms dataset into a GeoDataFrame
+storms_gdf = gpd.GeoDataFrame(storms, geometry=gpd.points_from_xy(storms[["start_longitude","end_longitude"]], storms[["start_latitude","end_latitude"]]))
+
+# Spatial join the two GeoDataFrames
+join = gpd.sjoin(fires_gdf, storms_gdf, how="inner", op='intersects')
+
+# group the data by fire and count the number of storms for each fire
+fires_with_storms = join.groupby("index_left").size()
+
+# Print the resulting fires dataframe
+print(fires_with_storms)
