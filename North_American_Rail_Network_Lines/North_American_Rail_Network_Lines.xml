@@ -1,0 +1,2058 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <pubdate>19950701</pubdate>
+                <title>Rail Lines (National)-National Geospatial Data Asset (NGDA) Rail Lines</title>
+                <geoform>vector digital data</geoform>
+                <lworkcit>
+                    <citeinfo>
+                        <pubdate>19950701</pubdate>
+                    </citeinfo>
+                </lworkcit>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The North American Rail Network (NARN) Rail Lines dataset was created in 2016 and was updated on October 17, 2022 from the Federal Railroad Administration (FRA) and is part of the U.S. Department of Transportation (USDOT)/Bureau of Transportation Statistics (BTS) National Transportation Atlas Database (NTAD). The NARN Rail Lines dataset is a database that provides ownership, trackage rights, type, passenger, STRACNET, and  geographic reference for North America's railway system at 1:24,000 or better within the United States. The data set covers all 50 States, the District of Columbia, Mexico, and Canada.</abstract>
+            <purpose>North American Rail Network (NARN) can be used within the public, the federal government, rail industry, state DOTs, and academia for routing, mapping and analysis.</purpose>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-156.689772</westbc>
+                <eastbc>-59.927231</eastbc>
+                <northbc>64.926145</northbc>
+                <southbc>14.672258</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>NGDA Portfolio Themes</themekt>
+                <themekey>Transportation</themekey>
+                <themekey>National Geospatial Data Asset</themekey>
+                <themekey>NGDA</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Database</themekey>
+                <themekey>Transportation</themekey>
+                <themekey>National Transportation Atlas Database</themekey>
+                <themekey>NARN</themekey>
+                <themekey>Atlas</themekey>
+                <themekey>NTAD</themekey>
+                <themekey>Rail</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>transportation</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>USA</placekey>
+                <placekey>North America</placekey>
+                <placekey>National</placekey>
+            </place>
+        </keywords>
+        <accconst>unrestricted</accconst>
+        <useconst>NTAD datasets are intended for public usage and are not for sale/resale</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Federal Railroad Administration (FRA)</cntorg>
+                    <cntper>Raquel Wright</cntper>
+                </cntorgp>
+                <cntpos>Transportation Industry Analyst/GIS Specialist</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1200 New Jersey Ave. SE</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20590</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>202-493-6415</cntvoice>
+                <cntemail>raquel.wright@dot.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Acknowledgment of the Federal Railroad Administration (FRA) and the Bureau of Transportation Statistics (BTS) [distributor].</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
+        <crossref>
+            <citeinfo>
+                <pubdate>19950701</pubdate>
+            </citeinfo>
+        </crossref>
+    </idinfo>
+    <dataqual>
+        <logic>Unknown</logic>
+        <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>Unknown</horizpar>
+            </horizpa>
+            <vertacc>
+                <vertaccr>Unknown</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <procstep>
+                <procdesc>The North American Rail Network was created using the preexisting FRA network 1:100k, the FRA Automated Track Inspection Program (ATIP) data, and the data provided to NGA by ORNL.  The source data of the spatial features was based on FRA’s ATIP foot by foot coordinates, where it existed, and the NGA/ORNL spatial content.</procdesc>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Complete chain</sdtstype>
+                <ptvctcnt>302762</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Rail Lines (National)-National Geospatial Data Asset (NGDA) Rail Lines</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FRAARCID</attrlabl>
+                <attrdef>Unique Identifier</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Unique ID</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FRFRANODE</attrlabl>
+                <attrdef>The FRA assigned node number at the topological start of the link</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Unique ID</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TOFRANODE</attrlabl>
+                <attrdef>The FRA assigned node number at the topological start of the link</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Unique ID</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STFIPS</attrlabl>
+                <attrdef>Federal Information Processing Standard (FIPS) State Code</attrdef>
+                <attrdefs>National Institute of Standards and Technology (NIST)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>Federal Information Processing Standard (FIPS)</codesetn>
+                                                						
+                        
+                        <codesets>National Institute of Standards and Technology (NIST)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CNTYFIPS</attrlabl>
+                <attrdef>Federal Information Processing Standard (FIPS) County Code</attrdef>
+                <attrdefs>National Institute of Standards and Technology (NIST)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>Federal Information Processing Standard (FIPS)</codesetn>
+                                                						
+                        
+                        <codesets>National Institute of Standards and Technology (NIST)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STCYFIPS</attrlabl>
+                <attrdef>Federal Information Processing Standard (FIPS) State and County Code</attrdef>
+                <attrdefs>National Institute of Standards and Technology (NIST)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>Federal Information Processing Standard (FIPS)</codesetn>
+                                                						
+                        
+                        <codesets>National Institute of Standards and Technology (NIST)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STATEAB</attrlabl>
+                <attrdef>State railroad abbreviation which follows the Postal abbreviation</attrdef>
+                <attrdefs>USPS</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>Official List of U.S.</codesetn>
+                                                						
+                        
+                        <codesets>U.S. Postal Service (USPS)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COUNTRY</attrlabl>
+                <attrdef>Country</attrdef>
+                <attrdefs>USPS</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>CA</edomv>
+                                                						
+                        
+                        <edomvd>Canada</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>MX</edomv>
+                                                						
+                        
+                        <edomvd>Mexico</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>US</edomv>
+                                                						
+                        
+                        <edomvd>United States</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>MX</edomv>
+                                                						
+                        
+                        <edomvd>Mexico</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>CA</edomv>
+                                                						
+                        
+                        <edomvd>Canada</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>US</edomv>
+                                                						
+                        
+                        <edomvd>United States</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>1</edomv>
+                                                						
+                        
+                        <edomvd>Canada</edomvd>
+                                                						
+                        
+                        <edomvds>Natural Resources Canada</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>2</edomv>
+                                                						
+                        
+                        <edomvd>U.S.</edomvd>
+                                                						
+                        
+                        <edomvds>Natural Resources Canada</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>3</edomv>
+                                                						
+                        
+                        <edomvd>Mexico</edomvd>
+                                                						
+                        
+                        <edomvds>Natural Resources Canada</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FRAREGIONS</attrlabl>
+                <attrdef>FRA Regional Boundaries</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>1</edomv>
+                                                						
+                        
+                        <edomvd>CT, MA, ME, NH, NJ, NY, RI, VT</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>2</edomv>
+                                                						
+                        
+                        <edomvd>DC, DE, MD, OH, PA, VA, WV</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>3</edomv>
+                                                						
+                        
+                        <edomvd>AL, FL, GA, KY, MS, NC, SC, TN</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>4</edomv>
+                                                						
+                        
+                        <edomvd>IL, IN, MI, MN, WI</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>5</edomv>
+                                                						
+                        
+                        <edomvd>AR, LA, NM, OK, TX</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>6</edomv>
+                                                						
+                        
+                        <edomvd>CO, IA, KS, MO, NE</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>7</edomv>
+                                                						
+                        
+                        <edomvd>AZ, CA, HI, NV, UT</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>8</edomv>
+                                                						
+                        
+                        <edomvd>AK, ID, MT, ND, OR, SD, WA, WY</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>99</edomv>
+                                                						
+                        
+                        <edomvd>Outside of the United States</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RROWNER1</attrlabl>
+                <attrdef>The reporting mark of the 1st owning railroad. Specific owner abbreviations found at https://safetydata.fra.dot.gov/OfficeofSafety/publicsite/downloads/RailroadAndCompanyFile/RailroadAndCompanyFile.aspx</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>FRA Rule 260 and Owner Codes</codesetn>
+                                                						
+                        
+                        <codesets>Federal Railroad Administration (FRA)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RROWNER2</attrlabl>
+                <attrdef>The reporting mark of the 2nd owning railroad, if any.  Specific owner abbreviations found at https://safetydata.fra.dot.gov/OfficeofSafety/publicsite/downloads/RailroadAndCompanyFile/RailroadAndCompanyFile.aspx</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>FRA Rule 260 and Owner Codes</codesetn>
+                                                						
+                        
+                        <codesets>Federal Railroad Administration (FRA)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RROWNER3</attrlabl>
+                <attrdef>The reporting mark of the 3rd owning railroad, if any. Specific owner abbreviations found at https://safetydata.fra.dot.gov/OfficeofSafety/publicsite/downloads/RailroadAndCompanyFile/RailroadAndCompanyFile.aspx</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>FRA Rule 260 and Owner Codes</codesetn>
+                                                						
+                        
+                        <codesets>Federal Railroad Administration (FRA)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TRKRGHTS1</attrlabl>
+                <attrdef>Reporting mark of the 1st railroad having trackage-rights.</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>FRA Rule 260 and Owner Codes</codesetn>
+                                                						
+                        
+                        <codesets>Federal Railroad Administration (FRA)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TRKRGHTS2</attrlabl>
+                <attrdef>Reporting marks of any additional railroads having trackage rights.</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>FRA Rule 260 and Owner Codes</codesetn>
+                                                						
+                        
+                        <codesets>Federal Railroad Administration (FRA)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TRKRGHTS3</attrlabl>
+                <attrdef>Reporting marks of any additional railroads having trackage rights.</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>FRA Rule 260 and Owner Codes</codesetn>
+                                                						
+                        
+                        <codesets>Federal Railroad Administration (FRA)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TRKRGHTS4</attrlabl>
+                <attrdef>Reporting marks of any additional railroads having trackage rights.</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>FRA Rule 260 and Owner Codes</codesetn>
+                                                						
+                        
+                        <codesets>Federal Railroad Administration (FRA)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TRKRGHTS5</attrlabl>
+                <attrdef>Reporting marks of any additional railroads having trackage rights.</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>FRA Rule 260 and Owner Codes</codesetn>
+                                                						
+                        
+                        <codesets>Federal Railroad Administration (FRA)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TRKRGHTS6</attrlabl>
+                <attrdef>Reporting marks of any additional railroads having trackage rights.</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>FRA Rule 260 and Owner Codes</codesetn>
+                                                						
+                        
+                        <codesets>Federal Railroad Administration (FRA)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TRKRGHTS7</attrlabl>
+                <attrdef>Reporting marks of any additional railroads having trackage rights.</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>FRA Rule 260 and Owner Codes</codesetn>
+                                                						
+                        
+                        <codesets>Federal Railroad Administration (FRA)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TRKRGHTS8</attrlabl>
+                <attrdef>Reporting marks of any additional railroads having trackage rights.</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>FRA Rule 260 and Owner Codes</codesetn>
+                                                						
+                        
+                        <codesets>Federal Railroad Administration (FRA)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TRKRGHTS9</attrlabl>
+                <attrdef>Reporting marks of any additional railroads having trackage rights.</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>FRA Rule 260 and Owner Codes</codesetn>
+                                                						
+                        
+                        <codesets>Federal Railroad Administration (FRA)</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SUBDIV</attrlabl>
+                <attrdef>Name of the subdivision</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>YARDNAME</attrlabl>
+                <attrdef>Name of rail yard</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PASSNGR</attrlabl>
+                <attrdef>Type of passenger service on line</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>A</edomv>
+                                                						
+                        
+                        <edomvd>Amtrak service</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>B</edomv>
+                                                						
+                        
+                        <edomvd>Both Amtrak and commuter rail service</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>C</edomv>
+                                                						
+                        
+                        <edomvd>Commuter rail service</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>D</edomv>
+                                                						
+                        
+                        <edomvd>Alaska Railroad passenger service</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>R</edomv>
+                                                						
+                        
+                        <edomvd>Rapid transit service</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>T</edomv>
+                                                						
+                        
+                        <edomvd>Tourist, museum, or scenic passenger service</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>O</edomv>
+                                                						
+                        
+                        <edomvd>Ontario Northland (Canada Network Only)</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>V</edomv>
+                                                						
+                        
+                        <edomvd>Via Rail Canada (Canada Network Only)</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NULL</edomv>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>C</edomv>
+                                                						
+                        
+                        <edomvd>Commuter</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>B</edomv>
+                                                						
+                        
+                        <edomvd>Amtrak and Commuter</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STRACNET</attrlabl>
+                <attrdef>Designation of the 2018 Strategic Rail Corridor Network (STRACNET) and its associated connector lines.  Together, STRACNET and the connectors are the civil rail lines most important to national defense.</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>S</edomv>
+                                                						
+                        
+                        <edomvd>On the STRACNET system</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>C</edomv>
+                                                						
+                        
+                        <edomvd>A connector to the STRACNET system</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NULL</edomv>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TRACKS</attrlabl>
+                <attrdef>Number of main line tracks</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CARDDIRECT</attrlabl>
+                <attrdef>Cardinal Direction</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>E</edomv>
+                                                						
+                        
+                        <edomvd>East</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>N</edomv>
+                                                						
+                        
+                        <edomvd>North</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>S</edomv>
+                                                						
+                        
+                        <edomvd>South</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>W</edomv>
+                                                						
+                        
+                        <edomvd>West</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NULL</edomv>
+                                                						
+                        
+                        <edomvd>On mainline tracks only</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NET</attrlabl>
+                <attrdef>Indicates which operations is part of the network, spatially</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>A</edomv>
+                                                						
+                        
+                        <edomvd>Abandoned</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>F</edomv>
+                                                						
+                        
+                        <edomvd>Ferry</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>I</edomv>
+                                                						
+                        
+                        <edomvd>Major industrial lead</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>M</edomv>
+                                                						
+                        
+                        <edomvd>Main lead</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>O</edomv>
+                                                						
+                        
+                        <edomvd>Non-Mainline Active track</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>R</edomv>
+                                                						
+                        
+                        <edomvd>Abandoned line that has been physically removed</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>S</edomv>
+                                                						
+                        
+                        <edomvd>Passing sidings</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>T</edomv>
+                                                						
+                        
+                        <edomvd>Trail on former rail right-of-way</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>X</edomv>
+                                                						
+                        
+                        <edomvd>Out of Service</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Y</edomv>
+                                                						
+                        
+                        <edomvd>Yard Tracks</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Z</edomv>
+                                                						
+                        
+                        <edomvd>Tourist, museum, or science passenger service</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MILES</attrlabl>
+                <attrdef>Length in miles</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>KM</attrlabl>
+                <attrdef>Kilometers</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>TIMEZONE</attrlabl>
+                <attrdef>Timezone the Route is in</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NULL</edomv>
+                                                						
+                        
+                        <edomvd>Not found in the United States</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>C</edomv>
+                                                						
+                        
+                        <edomvd>Central</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>E</edomv>
+                                                						
+                        
+                        <edomvd>Eastern</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>H</edomv>
+                                                						
+                        
+                        <edomvd>Hawaii</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>K</edomv>
+                                                						
+                        
+                        <edomvd>Alaskan</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>M</edomv>
+                                                						
+                        
+                        <edomvd>Mountain</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>P</edomv>
+                                                						
+                        
+                        <edomvd>Pacific</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Z</edomv>
+                                                						
+                        
+                        <edomvd>Arizona</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>IM_RT_TYPE</attrlabl>
+                <attrdef>Intermodal Route</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NULL</edomv>
+                                                						
+                        
+                        <edomvd>NULL</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>DS</edomv>
+                                                						
+                        
+                        <edomvd>Double Stack</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>INT</edomv>
+                                                						
+                        
+                        <edomvd>Intermodal</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DS</attrlabl>
+                <attrdef>Double Stacked</attrdef>
+                <attrdefs>Federal Railroad Administration (FRA)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NULL</edomv>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>BN-DS</edomv>
+                                                						
+                        
+                        <edomvd>BN Doublestacked</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>BN-DS-CP</edomv>
+                                                						
+                        
+                        <edomvd>BN Doublestacked with CP</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>BN-DS-NS</edomv>
+                                                						
+                        
+                        <edomvd>BN Doublestacked with NS</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>BN-INT</edomv>
+                                                						
+                        
+                        <edomvd>BN Intermodal</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>CP-INT</edomv>
+                                                						
+                        
+                        <edomvd>CP Intermodal</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>CSX-DS-CP</edomv>
+                                                						
+                        
+                        <edomvd>CSX Doublestacked with CP</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>CSX-DS-NS</edomv>
+                                                						
+                        
+                        <edomvd>CSX Doublestacked with NS</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>CSXT-1</edomv>
+                                                						
+                        
+                        <edomvd>CSXT Track class 1</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>CSXT-2</edomv>
+                                                						
+                        
+                        <edomvd>CSXT Track class 2</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>CSXT-3</edomv>
+                                                						
+                        
+                        <edomvd>CSXT Track class 3</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>KCS-DS-NS</edomv>
+                                                						
+                        
+                        <edomvd>KCS Doublestacked with NS</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NS-CP-INT</edomv>
+                                                						
+                        
+                        <edomvd>NS Intermodal with CP</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NS-DS</edomv>
+                                                						
+                        
+                        <edomvd>NS Doublestacked</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>UP-BN-DS</edomv>
+                                                						
+                        
+                        <edomvd>UP Doublestacked with BN</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>UP-DS</edomv>
+                                                						
+                        
+                        <edomvd>UP Doublestacked</edomvd>
+                                                						
+                        
+                        <edomvds>Federal Railroad Administration (FRA)</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Leng</attrlabl>
+                <attrdef>ESRI generated</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>ESRI generated</attrdef>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distliab>See access and use constraints information.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>ESRI Shapefile</formname>
+                    <formvern>20210101</formvern>
+                    <formspec>download</formspec>
+                    <filedec>ZIP</filedec>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://doi.org/10.21949/1522251</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://doi.org/10.21949/1519416</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://doi.org/10.21949/1519415</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://doi.org/10.21949/1519417</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20211015</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
